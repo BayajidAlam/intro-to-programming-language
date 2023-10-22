@@ -4,20 +4,20 @@ int main()
 {
 
   int n;
-  // EOF-End of file 
-  // take multiple input at a time 
-  while (scanf("%d", &n) != EOF)
+  scanf("%d", &n);
+  if (n > 0)
   {
-    if (n != 1999)
+    for (int i = 1; i <= n; i++)
     {
-      printf("Wrong\n");
-    }
-    else
-    {
-      printf("Correct\n");
-      break;
+      printf("%d ", i);
     }
   }
-
+  if (n < 0)
+  {
+    for (int i = 0; i <= n; i++)
+    {
+      printf("%d",i);
+    }
+  }
   return 0;
 }

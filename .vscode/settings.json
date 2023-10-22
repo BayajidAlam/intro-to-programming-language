@@ -1,3 +1,6 @@
 {
-  "C_Cpp.default.compilerPath": "e:\\c-c++\\heap-sort.c"
+  "C_Cpp.default.compilerPath": "e:\\c-c++\\heap-sort.c",
+  "files.associations": {
+    "stdio.h": "c"
+  }
 }
