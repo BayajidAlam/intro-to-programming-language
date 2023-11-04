@@ -5,8 +5,8 @@ int main()
 
     int x = 10;
     int *p = &x;
-    printf("%p\n", p);
-    // dereference to access p value
-    printf("%d", *p);
+    x = 300;
+    printf("%d\n", x);
+    printf("%d\n", *p);
     return 0;
 }
